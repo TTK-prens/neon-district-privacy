@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<meta name="description" content="Neon District oyununun gizlilik politikası. Privacy policy of the Neon District game.">
+<title>Neon District Gizlilik Politikası</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230a0a14'/%3E%3Cpath d='M8 46 L26 26 L38 36 L56 14' stroke='%2322e8ff' stroke-width='5' fill='none' stroke-linecap='round'/%3E%3Cpath d='M8 46 L26 26 L38 36 L56 14' stroke='%23ff2fb0' stroke-width='2' fill='none' stroke-linecap='round' opacity='.6' transform='translate(2,2)'/%3E%3C/svg%3E">
+<style>
+:root{
+  --bg:#0e1015; --surface:#161920; --ink:#eceef3; --muted:#9aa1b2; --line:#262a35;
+  --accent:#22e8ff; --accent2:#ff2fb0; --accent-ink:#04141a; --accent-soft:#102830; --link:#5fd7ff;
+  --f-body:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  --f-mono:ui-monospace,SFMono-Regular,Consolas,"Liberation Mono",monospace;
+}
+@media (prefers-color-scheme: light){
+  :root{
+    --bg:#f5f4f0; --surface:#ffffff; --ink:#15181e; --muted:#5a6070; --line:#e2dfd6;
+    --accent:#0aa3c2; --accent2:#c2168b; --accent-ink:#ffffff; --accent-soft:#e6fbff; --link:#0a7f96;
+  }
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--f-body);line-height:1.65;font-size:16px}
+.strip{height:10px;background:linear-gradient(90deg,var(--accent),var(--accent2));opacity:.9}
+.wrap{max-width:720px;margin:0 auto;padding:36px 16px 72px}
+.head{display:flex;align-items:center;gap:14px}
+.badge{width:46px;height:46px;border-radius:13px;flex:none;background:var(--bg);border:1px solid var(--line);display:grid;place-items:center}
+.badge svg{width:28px;height:28px}
+.brand{font-weight:800;font-size:20px;letter-spacing:.04em;background:linear-gradient(90deg,var(--accent),var(--accent2));-webkit-background-clip:text;background-clip:text;color:transparent}
+.stamp{margin:6px 0 26px 60px;font-size:13.5px;color:var(--muted)}
+.langbar{display:flex;gap:8px;margin:0 0 28px;flex-wrap:wrap}
+.langbtn{font:inherit;font-size:14px;font-weight:700;padding:8px 18px;min-height:40px;border-radius:999px;cursor:pointer;
+  border:1px solid var(--line);background:var(--surface);color:var(--muted)}
+.langbtn:hover{color:var(--ink)}
+.langbtn[aria-pressed="true"]{background:var(--accent);color:var(--accent-ink);border-color:transparent}
+.langbtn:focus-visible,a:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+h1{font-size:clamp(26px,5vw,34px);line-height:1.2;margin:0 0 8px;letter-spacing:-.01em;text-wrap:balance}
+.sub{color:var(--muted);margin:0 0 26px;max-width:60ch}
+section.lang-sec{display:none}
+section.lang-sec.on{display:block}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:18px 20px;margin:0 0 30px}
+.card h2{margin-top:0}
+h2{font-size:19px;margin:34px 0 10px;line-height:1.3}
+p{margin:0 0 14px;max-width:66ch}
+ul{margin:0 0 14px;padding-left:22px;max-width:64ch}
+li{margin-bottom:7px}
+.ticks{list-style:none;padding:0;margin:0}
+.ticks li{position:relative;padding-left:28px;margin-bottom:9px}
+.ticks li::before{content:"";position:absolute;left:2px;top:.5em;width:12px;height:7px;border-left:3px solid var(--accent);
+  border-bottom:3px solid var(--accent);transform:rotate(-45deg)}
+a{color:var(--link);text-underline-offset:3px;overflow-wrap:anywhere}
+.contact{font-family:var(--f-mono);font-size:15px;word-break:break-all}
+.note{font-size:14px;color:var(--muted)}
+.warn{border-color:var(--accent2)}
+footer{margin-top:44px;padding-top:18px;border-top:1px solid var(--line);color:var(--muted);font-size:13px}
+</style>
+<noscript><style>section.lang-sec{display:block;margin-bottom:48px}.langbar{display:none}</style></noscript>
+</head>
+<body>
+<div class="strip" aria-hidden="true"></div>
+<div class="wrap">
+
+  <div class="head">
+    <div class="badge" aria-hidden="true">
+      <svg viewBox="0 0 24 24" fill="none" stroke-linecap="round"><path d="M3 19 L10 11 L15 15 L21 6" stroke="#22e8ff" stroke-width="2.2"/></svg>
+    </div>
+    <div class="brand">NEON DISTRICT</div>
+  </div>
+  <div class="stamp" id="stamp">Son güncelleme: 28 Eylül 2026</div>
+
+  <div class="langbar" id="langbar" role="group" aria-label="Dil / Language"></div>
+
+  <!-- ============================== TÜRKÇE ============================== -->
+  <section id="sec-tr" class="lang-sec" lang="tr">
+    <h1>Gizlilik Politikası</h1>
+    <p class="sub">Neon District, gece bir şehirde serbestçe dolaştığınız, araba/motosiklet kullanabildiğiniz ve isterseniz arkadaşlarınızla aynı dünyaya girebildiğiniz bir açık dünya oyunudur. Bu sayfa verilerinize ne olduğunu sade bir dille anlatır.</p>
+
+    <div class="card">
+      <h2>Kısaca</h2>
+      <ul class="ticks">
+        <li>Hesap açmanız gerekmez; adınızı, e-postanızı ya da telefon numaranızı istemeyiz.</li>
+        <li>İlk açılışta cihazınıza rastgele bir oyuncu kimliği (ör. ND-K7M2QX) atanır ve yalnızca telefonunuzda saklanır.</li>
+        <li>Reklam yoktur, uygulama içi satın alma yoktur, analiz/çökme raporlama aracı yoktur.</li>
+        <li>"Arkadaşlar" özelliğini kullanırsanız takma adınız, kimliğiniz ve (aynı dünyaya girdiğinizde) canlı konumunuz, herkese açık ve şifresiz üçüncü taraf sunucular üzerinden diğer oyuncuya gönderilir (bölüm 3 — lütfen okuyun).</li>
+      </ul>
+    </div>
+
+    <h2>1. Cihazınızda sakladığımız veriler</h2>
+    <p>Neon District'in hesap sistemi ve kendi sunucusu yoktur. Aşağıdaki veriler yalnızca telefonunuzda, uygulamanın kendi özel depolama alanında tutulur ve bizim tarafımızdan görülmez:</p>
+    <ul>
+      <li>Rastgele oluşturulan oyuncu kimliğiniz ve seçtiğiniz takma ad.</li>
+      <li>Arkadaş listeniz (arkadaşlarınızın kimlik ve takma adları).</li>
+      <li>Oyun/ses ayarlarınız.</li>
+    </ul>
+    <p>Bu veriler sizi gerçek kimliğinizle doğrudan ilişkilendirmez. Uygulamayı kaldırmak ya da uygulama verilerini temizlemek bunları kalıcı olarak siler.</p>
+
+    <h2>2. İzinler</h2>
+    <ul>
+      <li>Uygulama konum, kamera, mikrofon, kişiler, SMS ya da fotoğraf/dosya erişimi istemez.</li>
+      <li>İstediği izinler yalnızca şunlardır: internet erişimi ve ağ durumu (çevrimiçi arkadaşlar özelliği için).</li>
+      <li>Reklam yoktur, dolayısıyla reklam kimliği toplanmaz.</li>
+    </ul>
+
+    <div class="card warn">
+      <h2>3. "Arkadaşlar" özelliği — lütfen dikkatle okuyun</h2>
+      <p>Oyun içindeki çevrimiçi arkadaşlık ve "aynı dünyaya girme" özelliği, tarafımızca işletilmeyen, <strong>herkese açık ve kimlik doğrulaması olmayan</strong> genel amaçlı mesajlaşma sunucuları (MQTT: broker.hivemq.com, broker.emqx.io, test.mosquitto.org) üzerinden çalışır. Bunlar bizim değil, ilgili üçüncü tarafların sunucularıdır; sürekli çalışacaklarının garantisi yoktur ve kendi politikalarına tabidirler.</p>
+      <p>Bu özelliği kullandığınızda (uygulama arka planda otomatik olarak bu sunuculara bağlanır):</p>
+      <ul>
+        <li>Oyuncu kimliğiniz ve takma adınız, "çevrimiçiyim" bilgisiyle birlikte bu sunucularda kısa süreliğine (retained mesaj olarak) tutulur.</li>
+        <li>Birine ID ile arkadaşlık isteği gönderirseniz, istek (kimliğiniz + takma adınız) karşı taraf görene kadar sunucuda bekler.</li>
+        <li>Bir arkadaşın dünyasına girdiğinizde, konumunuz, yönünüz, hızınız ve hangi aracı kullandığınız saniyede birkaç kez o dünyadaki oyunculara yayınlanır.</li>
+        <li>Bu sunucular herkese açık olduğu için, ID'nizi bilen ya da tahmin eden HERKES size istek gönderebilir ya da (dünya kodunu bilirse) o dünyadaki konum verilerini görebilir. Sohbet ya da sesli konuşma yoktur.</li>
+      </ul>
+      <p>Bu nedenle takma adınıza gerçek adınızı ya da kimliğinizi ortaya çıkaran bilgi yazmamanızı öneririz. Bu özelliği hiç kullanmazsanız (Arkadaşlar ekranını açmasanız bile arka planda bağlantı denemesi olabilir, ancak takma ad dışında kişisel veri paylaşılmaz) hiçbir veri bu sunuculara gönderilmez demek değildir — cihaz kimliği ve "çevrimiçi" durumu uygulama açıkken otomatik yayınlanır.</p>
+    </div>
+
+    <h2>4. Çocuklar</h2>
+    <p>Neon District genel bir kitleye yöneliktir. Bilerek 13 yaşın altındaki çocuklardan kişisel veri toplamayız. Bölüm 3'teki herkese açık sunucu yapısı nedeniyle, küçük yaştaki çocukların bu özelliği ebeveyn gözetiminde kullanması önerilir.</p>
+
+    <h2>5. Haklarınız</h2>
+    <p>Kendi sunucularımızda tuttuğumuz bir kişisel veri kaydı yoktur. Bölüm 3'te açıklanan üçüncü taraf sunuculardaki (retained) mesajlar zamanla otomatik olarak güncellenir/üzerine yazılır; uygulamadan çıkış yaptığınızda "çevrimdışı" durumu otomatik yayınlanır. AB/Birleşik Krallık mevzuatı veya 6698 sayılı KVKK kapsamındaki sorularınız için bize yazabilirsiniz.</p>
+
+    <h2>6. Değişiklikler</h2>
+    <p>Bu politika değişirse yukarıdaki tarihi güncelleriz.</p>
+
+    <div class="card">
+      <p><strong>İletişim.</strong> Bu politikayla ilgili sorular için:</p>
+      <p class="contact"><a href="mailto:ttkprens@gmail.com">ttkprens@gmail.com</a></p>
+      <p class="note" style="margin-bottom:0">Geliştirici: Neon District · Paket: com.neondistrict.game</p>
+    </div>
+  </section>
+
+  <!-- ============================== ENGLISH ============================== -->
+  <section id="sec-en" class="lang-sec" lang="en">
+    <h1>Privacy Policy</h1>
+    <p class="sub">Neon District is an open-world game where you roam a night city, drive cars and a motorcycle, and can optionally join the same world as your friends. This page explains, plainly, what happens to your data.</p>
+
+    <div class="card">
+      <h2>In short</h2>
+      <ul class="ticks">
+        <li>You don't need an account; we never ask for your name, email or phone number.</li>
+        <li>On first launch your device gets a random player ID (e.g. ND-K7M2QX), stored only on your phone.</li>
+        <li>No ads, no in-app purchases, no analytics or crash-reporting tool.</li>
+        <li>If you use the "Friends" feature, your nickname, ID and (while sharing a world) your live position are sent to the other player through public, unauthenticated third-party servers (section 3 — please read it).</li>
+      </ul>
+    </div>
+
+    <h2>1. Data stored on your device</h2>
+    <p>Neon District has no account system and no server of its own. The following is kept only on your phone, in the app's private storage, and is never seen by us:</p>
+    <ul>
+      <li>Your randomly generated player ID and the nickname you choose.</li>
+      <li>Your friends list (their IDs and nicknames).</li>
+      <li>Your game/audio settings.</li>
+    </ul>
+    <p>This data does not directly identify you by your real name. Uninstalling the app or clearing its data deletes it permanently.</p>
+
+    <h2>2. Permissions</h2>
+    <ul>
+      <li>The app does not ask for location, camera, microphone, contacts, SMS, or photo/file access.</li>
+      <li>The only permissions it requests are: internet access and network state (for the online friends feature).</li>
+      <li>There are no ads, so no advertising ID is collected.</li>
+    </ul>
+
+    <div class="card warn">
+      <h2>3. The "Friends" feature — please read carefully</h2>
+      <p>The in-game online friends and "join the same world" feature runs over general-purpose messaging servers (MQTT: broker.hivemq.com, broker.emqx.io, test.mosquitto.org) that are <strong>public and have no authentication</strong>, and that we do not operate. These are third-party servers, not ours; there is no guarantee they stay online, and they are subject to their own policies.</p>
+      <p>When this feature is active (the app connects to these servers automatically in the background):</p>
+      <ul>
+        <li>Your player ID and nickname, together with an "online" flag, are held on these servers briefly as a retained message.</li>
+        <li>If you send a friend request by ID, the request (your ID + nickname) waits on the server until the other person sees it.</li>
+        <li>While you are in a friend's world, your position, heading, speed and which vehicle you're driving are broadcast several times a second to the other players in that world.</li>
+        <li>Because these servers are public, anyone who knows or guesses your ID can send you a request, or (if they know the world code) see the position data in that world. There is no chat or voice.</li>
+      </ul>
+      <p>For this reason, we recommend not putting your real name or other identifying information in your nickname. Even if you never open the Friends screen, the app may still attempt a background connection while running and publish your device ID and "online" state - no personal data beyond the nickname is shared unless you actively use the feature.</p>
+    </div>
+
+    <h2>4. Children</h2>
+    <p>Neon District is intended for a general audience. We do not knowingly collect personal data from children under 13. Because of the public server design described in section 3, we recommend parental supervision for young children using that feature.</p>
+
+    <h2>5. Your rights</h2>
+    <p>We keep no personal data record on servers of our own. The retained messages on the third-party servers described in section 3 are automatically updated/overwritten over time; closing the app automatically publishes an "offline" status. For questions about your rights under EU/UK law or Turkey's Law No. 6698 (KVKK), you can write to us.</p>
+
+    <h2>6. Changes</h2>
+    <p>If this policy changes, we will update the date above.</p>
+
+    <div class="card">
+      <p><strong>Contact.</strong> Questions about this policy can be sent to:</p>
+      <p class="contact"><a href="mailto:ttkprens@gmail.com">ttkprens@gmail.com</a></p>
+      <p class="note" style="margin-bottom:0">Developer: Neon District · Package: com.neondistrict.game</p>
+    </div>
+  </section>
+
+  <!-- ============================== DEUTSCH ============================== -->
+  <section id="sec-de" class="lang-sec" lang="de">
+    <h1>Datenschutzerklärung</h1>
+    <p class="sub">Neon District ist ein Open-World-Spiel: eine Nachtstadt frei erkunden, Auto oder Motorrad fahren und optional derselben Welt wie deine Freunde beitreten. Diese Seite erklärt einfach, was mit deinen Daten geschieht.</p>
+
+    <div class="card">
+      <h2>Kurzfassung</h2>
+      <ul class="ticks">
+        <li>Kein Konto nötig; wir fragen nie nach Name, E-Mail oder Telefonnummer.</li>
+        <li>Beim ersten Start erhält dein Gerät eine zufällige Spieler-ID (z. B. ND-K7M2QX), nur lokal auf deinem Telefon gespeichert.</li>
+        <li>Keine Werbung, keine In-App-Käufe, kein Analyse- oder Absturzbericht-Tool.</li>
+        <li>Nutzt du die Funktion "Freunde", werden dein Spitzname, deine ID und (in einer geteilten Welt) deine Live-Position über öffentliche, nicht authentifizierte Server Dritter an den anderen Spieler gesendet (Abschnitt 3 — bitte lesen).</li>
+      </ul>
+    </div>
+
+    <h2>1. Auf deinem Gerät gespeicherte Daten</h2>
+    <p>Neon District hat kein Kontosystem und keinen eigenen Server. Folgendes wird ausschließlich lokal im privaten Speicher der App aufbewahrt und niemals an uns gesendet:</p>
+    <ul>
+      <li>Deine zufällig erzeugte Spieler-ID und dein gewählter Spitzname.</li>
+      <li>Deine Freundesliste (deren IDs und Spitznamen).</li>
+      <li>Deine Spiel-/Audioeinstellungen.</li>
+    </ul>
+    <p>Diese Daten identifizieren dich nicht direkt mit deinem echten Namen. Das Deinstallieren der App oder das Löschen ihrer Daten entfernt sie dauerhaft.</p>
+
+    <h2>2. Berechtigungen</h2>
+    <ul>
+      <li>Die App fragt nicht nach Standort, Kamera, Mikrofon, Kontakten, SMS oder Foto-/Dateizugriff.</li>
+      <li>Angeforderte Berechtigungen: Internetzugriff und Netzwerkstatus (für die Online-Freunde-Funktion).</li>
+      <li>Da es keine Werbung gibt, wird auch keine Werbe-ID erfasst.</li>
+    </ul>
+
+    <div class="card warn">
+      <h2>3. Die Funktion "Freunde" — bitte aufmerksam lesen</h2>
+      <p>Die Online-Freunde-Funktion läuft über allgemeine Nachrichtenserver (MQTT: broker.hivemq.com, broker.emqx.io, test.mosquitto.org), die <strong>öffentlich und nicht authentifiziert</strong> sind und die wir nicht betreiben. Das sind Server Dritter, nicht unsere eigenen; ein dauerhafter Betrieb wird nicht garantiert, und sie unterliegen ihren eigenen Richtlinien.</p>
+      <p>Solange diese Funktion aktiv ist (die App verbindet sich automatisch im Hintergrund):</p>
+      <ul>
+        <li>Deine Spieler-ID und dein Spitzname werden zusammen mit einem "online"-Status kurzzeitig auf diesen Servern als "retained message" gehalten.</li>
+        <li>Sendest du eine Freundschaftsanfrage per ID, wartet die Anfrage (ID + Spitzname) auf dem Server, bis die andere Person sie sieht.</li>
+        <li>Während du in der Welt eines Freundes bist, werden Position, Blickrichtung, Geschwindigkeit und das genutzte Fahrzeug mehrmals pro Sekunde an die anderen Spieler dieser Welt gesendet.</li>
+        <li>Da diese Server öffentlich sind, kann jeder, der deine ID kennt oder errät, dir eine Anfrage senden oder (bei bekanntem Weltcode) die Positionsdaten in dieser Welt sehen. Es gibt keinen Chat und keine Sprachfunktion.</li>
+      </ul>
+      <p>Wir empfehlen daher, keinen echten Namen oder andere identifizierende Angaben als Spitznamen zu verwenden. Auch ohne den Freunde-Bildschirm zu öffnen, kann die App im Hintergrund automatisch eine Verbindung versuchen und deine Geräte-ID sowie den "online"-Status veröffentlichen — persönliche Daten über den Spitznamen hinaus werden nur geteilt, wenn du die Funktion aktiv nutzt.</p>
+    </div>
+
+    <h2>4. Kinder</h2>
+    <p>Neon District richtet sich an ein allgemeines Publikum. Wir sammeln wissentlich keine personenbezogenen Daten von Kindern unter 13 Jahren. Aufgrund der in Abschnitt 3 beschriebenen öffentlichen Serverstruktur empfehlen wir bei jüngeren Kindern die Aufsicht durch Erziehungsberechtigte.</p>
+
+    <h2>5. Deine Rechte</h2>
+    <p>Wir führen keine personenbezogenen Datensätze auf eigenen Servern. Die retained messages auf den in Abschnitt 3 genannten Drittserverm werden im Laufe der Zeit automatisch aktualisiert/überschrieben; beim Schließen der App wird automatisch der Status "offline" veröffentlicht. Für Fragen zu deinen Rechten nach EU-/UK-Recht kannst du uns schreiben.</p>
+
+    <h2>6. Änderungen</h2>
+    <p>Bei Änderungen dieser Richtlinie aktualisieren wir das Datum oben.</p>
+
+    <div class="card">
+      <p><strong>Kontakt.</strong> Fragen zu dieser Richtlinie:</p>
+      <p class="contact"><a href="mailto:ttkprens@gmail.com">ttkprens@gmail.com</a></p>
+      <p class="note" style="margin-bottom:0">Entwickler: Neon District · Paket: com.neondistrict.game</p>
+    </div>
+  </section>
+
+  <!-- ============================== РУССКИЙ ============================== -->
+  <section id="sec-ru" class="lang-sec" lang="ru">
+    <h1>Политика конфиденциальности</h1>
+    <p class="sub">Neon District — открытый мир: ночной город, вождение машины и мотоцикла, а также возможность войти в общий мир с друзьями. Эта страница просто объясняет, что происходит с вашими данными.</p>
+
+    <div class="card">
+      <h2>Коротко</h2>
+      <ul class="ticks">
+        <li>Аккаунт не нужен; мы никогда не запрашиваем имя, email или номер телефона.</li>
+        <li>При первом запуске устройству присваивается случайный ID игрока (например, ND-K7M2QX), который хранится только на вашем телефоне.</li>
+        <li>Нет рекламы, нет покупок внутри приложения, нет инструментов аналитики или отчётов о сбоях.</li>
+        <li>При использовании функции «Друзья» ваш никнейм, ID и (в общем мире) текущая позиция передаются другому игроку через публичные сторонние серверы без аутентификации (раздел 3 — пожалуйста, прочитайте).</li>
+      </ul>
+    </div>
+
+    <h2>1. Данные, хранящиеся на вашем устройстве</h2>
+    <p>У Neon District нет системы аккаунтов и собственного сервера. Следующее хранится только на вашем телефоне, в приватном хранилище приложения, и никогда не передаётся нам:</p>
+    <ul>
+      <li>Ваш случайно сгенерированный ID игрока и выбранный никнейм.</li>
+      <li>Список друзей (их ID и никнеймы).</li>
+      <li>Настройки игры и звука.</li>
+    </ul>
+    <p>Эти данные напрямую не идентифицируют вас по настоящему имени. Удаление приложения или очистка его данных удаляет их безвозвратно.</p>
+
+    <h2>2. Разрешения</h2>
+    <ul>
+      <li>Приложение не запрашивает доступ к геолокации, камере, микрофону, контактам, SMS или файлам/фото.</li>
+      <li>Запрашиваемые разрешения: доступ в интернет и состояние сети (для функции онлайн-друзей).</li>
+      <li>Рекламы нет, поэтому рекламный идентификатор не собирается.</li>
+    </ul>
+
+    <div class="card warn">
+      <h2>3. Функция «Друзья» — прочитайте внимательно</h2>
+      <p>Функция онлайн-друзей и «вход в общий мир» работает через общедоступные серверы обмена сообщениями (MQTT: broker.hivemq.com, broker.emqx.io, test.mosquitto.org), которые <strong>публичны и не требуют аутентификации</strong>; мы их не администрируем. Это серверы третьих лиц, а не наши; их постоянная работа не гарантируется, и на них распространяются их собственные политики.</p>
+      <p>Пока эта функция активна (приложение автоматически подключается к этим серверам в фоне):</p>
+      <ul>
+        <li>Ваш ID игрока и никнейм вместе с флагом «в сети» кратковременно хранятся на этих серверах как «удержанное» (retained) сообщение.</li>
+        <li>Если вы отправляете запрос в друзья по ID, запрос (ID + никнейм) ожидает на сервере, пока его не увидит другой человек.</li>
+        <li>Пока вы находитесь в мире друга, ваша позиция, направление, скорость и используемый транспорт транслируются другим игрокам этого мира несколько раз в секунду.</li>
+        <li>Поскольку эти серверы публичны, любой, кто знает или угадает ваш ID, может отправить вам запрос, а зная код мира — увидеть данные о позиции в этом мире. Чата и голосовой связи нет.</li>
+      </ul>
+      <p>Поэтому рекомендуем не указывать в никнейме настоящее имя или другую идентифицирующую информацию. Даже если вы не открываете экран «Друзья», приложение может в фоне пытаться подключиться и публиковать ID устройства и статус «в сети» — личные данные сверх никнейма передаются только при активном использовании функции.</p>
+    </div>
+
+    <h2>4. Дети</h2>
+    <p>Neon District рассчитан на широкую аудиторию. Мы сознательно не собираем персональные данные детей младше 13 лет. Из-за публичной серверной архитектуры, описанной в разделе 3, для детей младшего возраста рекомендуется использование этой функции под присмотром родителей.</p>
+
+    <h2>5. Ваши права</h2>
+    <p>Мы не храним персональные данные на собственных серверах. Удержанные сообщения на сторонних серверах, описанных в разделе 3, со временем автоматически обновляются/перезаписываются; при закрытии приложения автоматически публикуется статус «не в сети». По вопросам ваших прав согласно законодательству ЕС/Великобритании вы можете написать нам.</p>
+
+    <h2>6. Изменения</h2>
+    <p>При изменении этой политики мы обновим дату выше.</p>
+
+    <div class="card">
+      <p><strong>Контакты.</strong> Вопросы по этой политике:</p>
+      <p class="contact"><a href="mailto:ttkprens@gmail.com">ttkprens@gmail.com</a></p>
+      <p class="note" style="margin-bottom:0">Разработчик: Neon District · Пакет: com.neondistrict.game</p>
+    </div>
+  </section>
+
+  <!-- ============================== 中文 ============================== -->
+  <section id="sec-zh" class="lang-sec" lang="zh">
+    <h1>隐私政策</h1>
+    <p class="sub">Neon District 是一款开放世界游戏：在夜晚的城市中自由漫游，驾驶汽车或摩托车，还可以选择加入好友所在的同一个世界。本页面将用简单的语言说明您的数据会发生什么。</p>
+
+    <div class="card">
+      <h2>概要</h2>
+      <ul class="ticks">
+        <li>无需注册账号；我们绝不会要求您提供姓名、电子邮箱或电话号码。</li>
+        <li>首次启动时，您的设备会获得一个随机的玩家 ID（例如 ND-K7M2QX），仅保存在您的手机上。</li>
+        <li>没有广告、没有应用内购买、没有分析或崩溃报告工具。</li>
+        <li>如果您使用"好友"功能，您的昵称、ID 以及（在共享世界中）实时位置会通过公开的、无需身份验证的第三方服务器发送给对方玩家（见第 3 节，请务必阅读）。</li>
+      </ul>
+    </div>
+
+    <h2>1. 保存在您设备上的数据</h2>
+    <p>Neon District 没有账号系统，也没有自己的服务器。以下数据仅保存在您手机上应用的私有存储中，从不会发送给我们：</p>
+    <ul>
+      <li>随机生成的玩家 ID 以及您选择的昵称。</li>
+      <li>您的好友列表（好友的 ID 和昵称）。</li>
+      <li>您的游戏/音频设置。</li>
+    </ul>
+    <p>这些数据不会直接以您的真实姓名识别您。卸载应用或清除应用数据会将其永久删除。</p>
+
+    <h2>2. 权限</h2>
+    <ul>
+      <li>本应用不会请求位置、摄像头、麦克风、通讯录、短信或照片/文件访问权限。</li>
+      <li>请求的权限仅为：网络访问和网络状态（用于在线好友功能）。</li>
+      <li>由于没有广告，因此不会收集广告标识符。</li>
+    </ul>
+
+    <div class="card warn">
+      <h2>3. "好友"功能 — 请仔细阅读</h2>
+      <p>游戏内的在线好友及"加入同一世界"功能运行在通用消息服务器（MQTT：broker.hivemq.com、broker.emqx.io、test.mosquitto.org）之上，这些服务器<strong>公开且无需身份验证</strong>，并非由我们运营。它们是第三方服务器，而非我们自己的服务器；不保证持续在线，并受其自身政策约束。</p>
+      <p>当此功能处于活动状态时（应用会在后台自动连接这些服务器）：</p>
+      <ul>
+        <li>您的玩家 ID 和昵称会连同"在线"标志短暂保留在这些服务器上（作为保留消息）。</li>
+        <li>如果您通过 ID 发送好友请求，该请求（ID + 昵称）会保留在服务器上，直到对方看到为止。</li>
+        <li>当您处于好友的世界中时，您的位置、朝向、速度以及所驾驶的载具会以每秒数次的频率广播给该世界中的其他玩家。</li>
+        <li>由于这些服务器是公开的，任何知道或猜到您 ID 的人都可以向您发送请求；若其知道世界代码，还可以看到该世界中的位置数据。游戏内没有聊天或语音功能。</li>
+      </ul>
+      <p>因此，我们建议您不要在昵称中使用真实姓名或其他可识别身份的信息。即使您从未打开"好友"界面，应用仍可能在后台自动尝试连接并发布您的设备 ID 与"在线"状态——只有在您主动使用该功能时，才会共享昵称以外的个人数据。</p>
+    </div>
+
+    <h2>4. 儿童</h2>
+    <p>Neon District 面向广泛受众。我们不会故意收集 13 岁以下儿童的个人数据。由于第 3 节所述的公开服务器架构，建议未成年儿童在家长监督下使用该功能。</p>
+
+    <h2>5. 您的权利</h2>
+    <p>我们不在自己的服务器上保存任何个人数据记录。第 3 节所述第三方服务器上的保留消息会随时间自动更新/覆盖；关闭应用后会自动发布"离线"状态。如对您在欧盟/英国法律下的权利有疑问，可以给我们写信。</p>
+
+    <h2>6. 变更</h2>
+    <p>如果本政策发生变更，我们会更新上方日期。</p>
+
+    <div class="card">
+      <p><strong>联系方式。</strong> 有关本政策的问题请发送至：</p>
+      <p class="contact"><a href="mailto:ttkprens@gmail.com">ttkprens@gmail.com</a></p>
+      <p class="note" style="margin-bottom:0">开发者：Neon District · 包名：com.neondistrict.game</p>
+    </div>
+  </section>
+
+  <footer>Neon District — open-world night city game.</footer>
+</div>
+
+<script>
+(function () {
+  var LANGS = [
+    { id: 'tr', label: 'Türkçe', title: 'Neon District Gizlilik Politikası', stamp: 'Son güncelleme: 28 Eylül 2026' },
+    { id: 'en', label: 'English', title: 'Neon District Privacy Policy', stamp: 'Last updated: 28 September 2026' },
+    { id: 'de', label: 'Deutsch', title: 'Neon District Datenschutzerklärung', stamp: 'Zuletzt aktualisiert: 28. September 2026' },
+    { id: 'ru', label: 'Русский', title: 'Neon District — Политика конфиденциальности', stamp: 'Последнее обновление: 28 сентября 2026 г.' },
+    { id: 'zh', label: '中文', title: 'Neon District 隐私政策', stamp: '最后更新：2026年9月28日' }
+  ];
+  var bar = document.getElementById('langbar');
+  var stamp = document.getElementById('stamp');
+
+  function show(id) {
+    var chosen = LANGS[0];
+    LANGS.forEach(function (l) { if (l.id === id) { chosen = l; } });
+    document.querySelectorAll('.lang-sec').forEach(function (s) { s.classList.remove('on'); });
+    document.getElementById('sec-' + chosen.id).classList.add('on');
+    Array.prototype.forEach.call(bar.children, function (b) { b.setAttribute('aria-pressed', String(b.dataset.id === chosen.id)); });
+    document.documentElement.lang = chosen.id;
+    document.title = chosen.title;
+    stamp.textContent = chosen.stamp;
+    try { localStorage.setItem('neondistrict-privacy-lang', chosen.id); } catch (e) {}
+  }
+
+  LANGS.forEach(function (l) {
+    var b = document.createElement('button');
+    b.type = 'button';
+    b.className = 'langbtn';
+    b.textContent = l.label;
+    b.dataset.id = l.id;
+    b.addEventListener('click', function () { show(l.id); });
+    bar.appendChild(b);
+  });
+
+  var start = 'tr';
+  try {
+    var saved = localStorage.getItem('neondistrict-privacy-lang');
+    if (saved) { start = saved; }
+    else {
+      var nav = (navigator.language || 'tr').toLowerCase();
+      if (/^en/.test(nav)) start = 'en';
+      else if (/^de/.test(nav)) start = 'de';
+      else if (/^ru/.test(nav)) start = 'ru';
+      else if (/^zh/.test(nav)) start = 'zh';
+      else if (!/^tr/.test(nav)) start = 'en';
+    }
+  } catch (e) {}
+  var validIds = LANGS.map(function(l){ return l.id; });
+  var hashId = location.hash.replace('#','');
+  if (validIds.indexOf(hashId) !== -1) { start = hashId; }
+  show(start);
+})();
+</script>
+</body>
+</html>
